@@ -31,5 +31,5 @@ def login_validation():
     return "Login validation: Your email: {} and passwored is {}".format(email, password)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
 
